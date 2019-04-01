@@ -50,7 +50,8 @@ unix {
 RESOURCES += \
     Res.qrc
 
-headers.files +=     BaseWindow.h \
+headers.files +=     quikit_global.h \
+					 BaseWindow.h \
                      FramelessHelper/FramelessHelper.h \
                      FramelessHelper/WindowFramelessHelper.h
 headers.path  +=     $$INCLUDE_INSTALL_ROOT/QUIKit
