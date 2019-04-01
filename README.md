@@ -1,0 +1,2 @@
+# QUIKit
+Common Qt components
