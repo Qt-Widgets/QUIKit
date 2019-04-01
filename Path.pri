@@ -47,6 +47,8 @@ CONFIG(release, debug|release) {
 INTERMEDIATE_DIR        = $$PWD/Intermediate/$$BuildType
 THIRD_DIR               = $$PWD/Third
 
+INCLUDE_INSTALL_ROOT    =$$PWD/Install/Include
+LIB_INSTALL_ROOT        =$$PWD/Install/Libs/$$BuildType
 
 DESTDIR         = $$PWD/RunImage/$$BuildType
 OUT_PWD         = $$INTERMEDIATE_DIR/$$TARGET

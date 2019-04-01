@@ -49,3 +49,14 @@ unix {
 
 RESOURCES += \
     Res.qrc
+
+headers.files +=     BaseWindow.h \
+                     FramelessHelper/FramelessHelper.h \
+                     FramelessHelper/WindowFramelessHelper.h
+headers.path  +=     $$INCLUDE_INSTALL_ROOT/QUIKit
+
+INSTALLS += headers
+
+dlls.files  +=      $$DESTDIR/QUIKit.dll
+dlls.path   +=      $$LIB_INSTALL_ROOT
+INSTALLS    +=      dlls
